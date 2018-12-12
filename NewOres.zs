@@ -22,11 +22,11 @@ var ore_types = ["ore"] as string[];
 # Material registration
 
 
-for i, metal in metal_list {
+for metal in metal_list {
     metal.registerParts(part_names);
 
     var ores = metal.registerParts(ore_types);
-    for i, ore in ores {
+    for ore in ores {
         var oreData = ore.getData();
         oreData.addDataValue("variants", "minecraft:stone");
         oreData.addDataValue("hardness", "3");
