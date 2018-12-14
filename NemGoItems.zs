@@ -71,6 +71,7 @@ import mods.contenttweaker.IItemDestroySpeed;
 	VanillaFactory.createItem("what").register();
 	VanillaFactory.createItem("wandrod").register();
 	VanillaFactory.createItem("bucketbros").register();
+	VanillaFactory.createItem("starofnemgo").register();
 
 	var lastpick = VanillaFactory.createItem("lastpick");
 	lastpick.maxStackSize = 1;

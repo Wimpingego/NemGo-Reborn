@@ -4,8 +4,8 @@
 
 #Adds a light transmutation recipe
 
-    mods.astralsorcery.LightTransmutation.addTransmutation(<astralsorcery:blockcustomore:1>, <contenttweaker:sub_block_holder_0>, 10);
-    mods.astralsorcery.LightTransmutation.addTransmutation(<minecraft:gold_ore>, <contenttweaker:sub_block_holder_0:3>, 10);
+    mods.astralsorcery.LightTransmutation.addTransmutation(<contenttweaker:sub_block_holder_0:1>, <contenttweaker:sub_block_holder_0>, 15);
+    mods.astralsorcery.LightTransmutation.addTransmutation(<contenttweaker:sub_block_holder_0>, <contenttweaker:sub_block_holder_0:1>, 15);
 
 #Adds a new Infusion recipe to the starlight infusion
 

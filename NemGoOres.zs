@@ -21,7 +21,6 @@ var ore_types = ["ore"] as string[];
 
 # Material registration
 
-
 for metal in metal_list {
     metal.registerParts(part_names);
 

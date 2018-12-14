@@ -2,13 +2,10 @@
 #Author: Wimpingego (Based off the work of RWTema)
 #priority 4
 
-#Calls
-
-import crafttweaker.item.IIngredient;
-
 #ManaInfusion
 
     mods.botania.ManaInfusion.addInfusion(<contenttweaker:sub_block_holder_0>, <minecraft:iron_ore>, 1000);
+    mods.botania.ManaInfusion.addInfusion(<botania:dice> * 2, <botania:dice>, 60000);
 
 #ElvenTrade
 
@@ -30,4 +27,4 @@ import crafttweaker.item.IIngredient;
 
 #RuneAltar
     
-    mods.botania.RuneAltar.addRecipe(<contenttweaker:nem_heart> * 2,[<draconicevolution:dragon_heart>, <botania:rune:8>,<draconicevolution:dragon_heart>, <astralsorcery:itemcraftingcomponent:4>, <botania:spark>,<botania:manaresource:8>,<thaumcraft:seal>], 5200);
+    mods.botania.RuneAltar.addRecipe(<contenttweaker:nem_heart> * 2,[<draconicevolution:dragon_heart>, <botania:rune:8>,<draconicevolution:dragon_heart>, <astralsorcery:itemcraftingcomponent:4>, <botania:spark>,<botania:manaresource:8>,<thaumcraft:seal>], 10500);
