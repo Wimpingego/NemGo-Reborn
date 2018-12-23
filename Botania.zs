@@ -5,7 +5,7 @@
 #ManaInfusion
 
     mods.botania.ManaInfusion.addInfusion(<contenttweaker:sub_block_holder_0>, <minecraft:iron_ore>, 1000);
-    mods.botania.ManaInfusion.addInfusion(<botania:dice> * 2, <botania:dice>, 60000);
+    mods.botania.ManaInfusion.addInfusion(<botania:dice> * 2, <botania:dice>, 50000);
 
 #ElvenTrade
 

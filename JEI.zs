@@ -3,12 +3,6 @@
 #priority 1
 
 print("Initializing 'JEI.zs'...");
-
-#Initial Inventory
-	
-	mods.initialinventory.InvHandler.addStartingItem(<ftbquests:book>);
-	mods.initialinventory.InvHandler.addStartingItem(<naturescompass:naturescompass>);
-	mods.initialinventory.InvHandler.addStartingItem(<minecraft:apple> * 5);
 	
 #Added to JEI
 
@@ -17,6 +11,9 @@ print("Initializing 'JEI.zs'...");
 	mods.jei.JEI.addItem(<yabba:item_barrel>.withTag({BlockEntityTag: {Item: {id: "minecraft:stone", Count: 1 as byte, Damage: 0 as short}, Tier: "creative", Skin: "minecraft:stone", Count: 1000000000}}));
 
 #Hide from JEI and remove recipe
+
+	#RFTools
+	mods.jei.JEI.removeAndHide(<rftools:block_protector>);
 	
 	#Modcurrecy
 	mods.jei.JEI.removeAndHide(<modcurrency:guidebook>);
