@@ -1,0 +1,24 @@
+{
+  "materialMappings": {
+    "slime_iron_armor": 8,
+    "purple_haze_ore_minecraft_stone": 19,
+    "slime_iron_ore_minecraft_stone": 18,
+    "purple_haze_armor": 17,
+    "purple_haze_ore": 15,
+    "purple_haze_nugget": 12,
+    "purple_haze_block": 16,
+    "purple_haze_rod": 14,
+    "slime_iron_gear": 1,
+    "slime_iron_block": 7,
+    "purple_haze_plate": 11,
+    "slime_iron_ore": 6,
+    "slime_iron_ingot": 4,
+    "slime_iron_rod": 5,
+    "slime_iron_nugget": 3,
+    "slime_iron_plate": 2,
+    "slime_iron_dust": 0,
+    "purple_haze_ingot": 13,
+    "purple_haze_dust": 9,
+    "purple_haze_gear": 10
+  }
+}
