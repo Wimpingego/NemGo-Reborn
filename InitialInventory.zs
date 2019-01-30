@@ -1,6 +1,6 @@
 #Name: InitialInventory.zs
 #Author: Wimpingego (Based off the work of the FBT team)
-#priority 7
+#priority 8
 
 print("Initializing 'InitialInventory.zs'...");
 

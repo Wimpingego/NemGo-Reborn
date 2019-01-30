@@ -2,6 +2,8 @@
 #Author: Wimpingego
 #priority 6
 
+recipes.addShaped(<astralsorcery:itemjournal>, [[ null, <astralsorcery:itemcraftingcomponent>, null], [ <astralsorcery:itemcraftingcomponent>, <minecraft:book>, <astralsorcery:itemcraftingcomponent>], [ null, <astralsorcery:itemcraftingcomponent>, null]]);
+
 #Adds a light transmutation recipe
 
     mods.astralsorcery.LightTransmutation.addTransmutation(<contenttweaker:sub_block_holder_0:1>, <contenttweaker:sub_block_holder_0>, 15);

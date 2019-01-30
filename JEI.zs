@@ -3,12 +3,6 @@
 #priority 1
 
 print("Initializing 'JEI.zs'...");
-	
-#Added to JEI
-
-	mods.jei.JEI.addItem(<yabba:item_barrel>.withTag({BlockEntityTag: {Item: {id: "minecraft:log", Count: 1 as byte, Damage: 0 as short}, Tier: "creative", Skin: "minecraft:log_oak", Count: 1000000000}}));
-	mods.jei.JEI.addItem(<yabba:item_barrel>.withTag({BlockEntityTag: {Item: {id: "minecraft:cobblestone", Count: 1 as byte, Damage: 0 as short}, Tier: "creative", Skin: "minecraft:cobblestone", Count: 1000000000}}));
-	mods.jei.JEI.addItem(<yabba:item_barrel>.withTag({BlockEntityTag: {Item: {id: "minecraft:stone", Count: 1 as byte, Damage: 0 as short}, Tier: "creative", Skin: "minecraft:stone", Count: 1000000000}}));
 
 #Hide from JEI and remove recipe
 
@@ -21,6 +15,10 @@ print("Initializing 'JEI.zs'...");
 	
 	#Thaumcraft
 	mods.jei.JEI.removeAndHide(<thaumcraft:cluster>);
+
+	#Pirates
+	mods.jei.JEI.removeAndHide(<pirates:light_te>);
+	mods.jei.JEI.removeAndHide(<pirates:jib_sheet>);
 	
 	#Exchngers
 	mods.jei.JEI.removeAndHide(<exchangers:tuberous_exchanger>);
@@ -46,6 +44,14 @@ print("Initializing 'JEI.zs'...");
 	mods.jei.JEI.removeAndHide(<exchangers:eio_exchanger_core_tier1>);
 	mods.jei.JEI.removeAndHide(<exchangers:eio_exchanger_core_tier2>);
 	mods.jei.JEI.removeAndHide(<exchangers:eio_exchanger_core_tier3>);
+	mods.jei.JEI.removeAndHide(<exchangers:leadstone_exchanger>);
+	mods.jei.JEI.removeAndHide(<exchangers:hardened_exchanger>);
+	mods.jei.JEI.removeAndHide(<exchangers:reinforced_exchanger>);
+	mods.jei.JEI.removeAndHide(<exchangers:signalum_exchanger>);
+	mods.jei.JEI.removeAndHide(<exchangers:resonant_exchanger>);
+	mods.jei.JEI.removeAndHide(<exchangers:te_exchanger_core_tier1>);
+	mods.jei.JEI.removeAndHide(<exchangers:te_exchanger_core_tier2>);
+	mods.jei.JEI.removeAndHide(<exchangers:te_exchanger_core_tier3>);
 	
 	#Reborn Storage
 	mods.jei.JEI.removeAndHide(<rebornstorage:multicrafter>);
@@ -53,6 +59,21 @@ print("Initializing 'JEI.zs'...");
 	mods.jei.JEI.removeAndHide(<rebornstorage:multicrafter:2>);
 	mods.jei.JEI.removeAndHide(<rebornstorage:multicrafter:3>);
 	mods.jei.JEI.removeAndHide(<rebornstorage:multicrafter:4>);
+
+	#Mystical World
+	mods.jei.JEI.removeAndHide(<mysticalworld:thatch>);
+	mods.jei.JEI.removeAndHide(<mysticalworld:caminite>);
+	mods.jei.JEI.removeAndHide(<mysticalworld:caminite_stairs>);
+	mods.jei.JEI.removeAndHide(<mysticalworld:caminite_bricks>);
+	mods.jei.JEI.removeAndHide(<mysticalworld:caminite_bricks_stairs>);	
+	mods.jei.JEI.removeAndHide(<mysticalworld:sunburnt_stone>);	
+	mods.jei.JEI.removeAndHide(<mysticalworld:sunburnt_stone_stairs>);	
+	mods.jei.JEI.removeAndHide(<mysticalworld:caminite_slab>);	
+	mods.jei.JEI.removeAndHide(<mysticalworld:caminite_wall>);
+	mods.jei.JEI.removeAndHide(<mysticalworld:caminite_bricks_slab>);		
+	mods.jei.JEI.removeAndHide(<mysticalworld:caminite_bricks_wall>);
+	mods.jei.JEI.removeAndHide(<mysticalworld:sunburnt_stone_slab>);
+	mods.jei.JEI.removeAndHide(<mysticalworld:sunburnt_stone_wall>);
 
 #Remove recipes
 

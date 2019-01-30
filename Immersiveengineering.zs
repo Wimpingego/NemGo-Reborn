@@ -22,9 +22,6 @@
     
     #mods.immersiveengineering.Refinery.addRecipe(<output> * 1000, <input> * 2000, <input> * 2000, 10000);
     
-    mods.immersiveengineering.Refinery.addRecipe(<liquid:cdiesel> * 2000, <liquid:creosote> * 1000, <liquid:biodiesel> * 1000, 10000);
 	mods.immersiveengineering.Refinery.addRecipe(<liquid:bucketbros> * 2000, <liquid:purplehaze> * 1000, <liquid:slimeiron> * 1000, 10000);
-    mods.immersiveengineering.Refinery.addRecipe(<liquid:deathmana> * 2000, <liquid:mana> * 1000, <liquid:liquid_death> * 1000, 10000);
-    mods.immersiveengineering.Refinery.addRecipe(<liquid:vesa> * 2000, <liquid:end_steel> * 1000, <liquid:vibrant_alloy> * 1000, 10000);
 
 

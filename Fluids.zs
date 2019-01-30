@@ -23,23 +23,3 @@ var bucketbros = VanillaFactory.createFluid("bucketbros", Color.fromHex("8D9B7A"
 bucketbros.stillLocation = "contenttweaker:fluids/fluid_still";
 bucketbros.flowingLocation = "contenttweaker:fluids/fluid_flow";
 bucketbros.register();
-
-var mana = VanillaFactory.createFluid("mana", Color.fromHex("49c2ff"));
-mana.stillLocation = "contenttweaker:fluids/fluid2_still";
-mana.flowingLocation = "contenttweaker:fluids/fluid2_flow";
-mana.register();
-
-var deathmana = VanillaFactory.createFluid("deathmana", Color.fromHex("656EAE"));
-deathmana.stillLocation = "contenttweaker:fluids/fluid_still";
-deathmana.flowingLocation = "contenttweaker:fluids/fluid_flow";
-deathmana.register();
-
-var vesa = VanillaFactory.createFluid("vesa", Color.fromHex("a87d1f"));
-vesa.stillLocation = "contenttweaker:fluids/fluid_still";
-vesa.flowingLocation = "contenttweaker:fluids/fluid_flow";
-vesa.register();
-
-var cdiesel = VanillaFactory.createFluid("cdiesel", Color.fromHex("915e2b"));
-cdiesel.stillLocation = "contenttweaker:fluids/fluid_still";
-cdiesel.flowingLocation = "contenttweaker:fluids/fluid_flow";
-cdiesel.register();

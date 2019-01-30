@@ -56,7 +56,7 @@ import mods.contenttweaker.IItemDestroySpeed;
 
 	var deathpotato = VanillaFactory.createItemFood("death_potato", 30);
 	deathpotato.rarity = "RARE";
-	egoenergy.saturation = 10;
+	deathpotato.saturation = 10;
 	deathpotato.register();
 
 #Other New Items
