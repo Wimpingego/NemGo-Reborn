@@ -1,0 +1,247 @@
+{
+  "images": {
+    "modpack": {
+      "image": "mainmenu:textures/logo.png",
+      "posX": -212.5,
+      "posY": -170,
+      "width": 425,
+      "height": 134.5,
+      "imageWidth": 850,
+      "imageHeight": 269,
+      "alignment": "center"
+    }
+  },
+  "buttons": {
+    "singleplayer": {
+      "text": "menu.singleplayer",
+      "texture": "mainmenu:textures/btn.png",
+      "posX": -80,
+      "posY": -28,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 100,
+      "imageHeight": 50,
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,	
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
+    },
+    "multiplayer": {
+      "text": "menu.multiplayer",
+      "texture": "mainmenu:textures/btn.png",
+      "posX": -80,
+      "posY": -6,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 100,
+      "imageHeight": 50,
+			"normalTextColor" : 6719561,
+			"hoverTextColor" : 8348308,
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
+    },
+    "mods": {
+      "text": "fml.menu.mods",
+      "texture": "mainmenu:textures/btn.png",
+      "posX": -80,
+      "posY": 16,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 100,
+      "imageHeight": 50,
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,	
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
+      }
+    },
+    "options": {
+      "text": "Options",
+      "texture": "mainmenu:textures/btn.png",
+      "posX": -80,
+      "posY": 38,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 100,
+      "imageHeight": 50,
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,	
+      "alignment": "center",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+    "changelog": {
+      "text": "Changelogs",
+      "posX": -80,
+      "posY": 60,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 100,
+      "imageHeight": 50,
+			"normalTextColor" : 12303291,
+			"hoverTextColor" : 3125670,	
+      "alignment": "center",
+      "texture": "mainmenu:textures/btn.png",
+      "action": {
+        "type": "openLink",
+        "link": "https://minecraft.curseforge.com/projects/nemgo-reborn/files"
+      }
+    },
+    "quit": {
+      "text": "menu.quit",
+      "texture": "mainmenu:textures/btn.png",
+      "posX": -80,
+      "posY": 100,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "width": 160,
+      "height": 20,
+      "imageWidth": 100,
+      "imageHeight": 50,
+			"normalTextColor" : 16729156,
+			"hoverTextColor" : 14483456,
+      "alignment": "center",
+      "action": {
+        "type": "quit"
+      }
+    },
+    "language": {
+      "text": "",
+      "posX": -27,
+      "posY": 1,
+      "width": 25,
+      "height": 25,
+      "alignment": "top_right",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "texture": "mainmenu:textures/refresh.png",
+      "action":{
+        "type" : "openLink",
+        "link" : "https://tinyurl.com/eastereggo1"
+      }
+    },
+    "website2": {
+      "text": "",
+      "posX": -27,
+      "posY": 25,
+      "width": 25,
+      "height": 25,
+      "alignment": "top_right",
+      "texture": "mainmenu:textures/refresh.png",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "action": {
+        "type": "openLink",
+        "link": "https://tinyurl.com/eastereggo1"
+      }
+    },
+    "website3": {
+      "text": "",
+      "posX": -27,
+      "posY": 49,
+      "width": 25,
+      "height": 25,
+      "alignment": "top_right",
+      "texture": "mainmenu:textures/refresh.png",
+      "imageWidth": "40",
+      "imageHeight": "40",
+      "action": {
+        "type": "openLink",
+        "link": "https://tinyurl.com/eastereggo1"
+      }
+    },
+    "refresh": {
+      "text": "",
+      "posX": 0,
+      "posY": 0,
+      "width": 26,
+      "height": 25,
+      "alignment": "top_left",
+      "texture": "mainmenu:textures/refresh.png",
+      "action": {
+        "type": "refresh"
+      }
+    }
+  },
+  "labels":
+  {
+    "Welcome": {
+          "text": "Welcome #username#",
+          "posX": 2,
+          "posY": -32,
+          "fontSize": 1.0,
+          "color": -1,
+          "hoverColor": -1,
+          "alignment": "bottom_left"
+      },
+  "veriosn":{
+    "text" : "NemGo Reborn 0.0.2",
+          "posX" : 2,
+          "posY" : -22,
+    "fontSize" : 1.0,
+          "color" : -1,
+    "hoverColor" : -1,
+          "alignment" : "bottom_left"
+  },
+  "forge":{
+    "text" : "Forge #forgeversion# - #modsloaded# Mods",
+          "posX" : 2,
+          "posY" : -12,
+    "fontSize" : 1.0,
+          "color" : -1,
+    "hoverColor" : -1,
+          "alignment" : "bottom_left"
+  },
+  "minecraft":{
+    "text" : "Minecraft 1.12.2",
+          "posX" : -71,
+          "posY" : -22,
+    "fontSize" : 1.0,
+          "color" : -1,
+    "hoverColor" : -1,
+          "alignment" : "bottom_right"
+  },
+  "mojang":{
+          "text" : "Copyright Mojang AB",
+          "posX" : -90,
+          "posY" : -12,
+    "fontSize" : 1.0,
+          "color" : -1,
+    "hoverColor" : -1,
+          "alignment" : "bottom_right"
+      }
+  },
+  "other":
+  {
+  "background":
+      {
+          "image" : "",
+          "slideshow":
+          {
+              "images" : ["mainmenu:textures/bg_1.png","mainmenu:textures/bg_2.png","mainmenu:textures/bg_3.png","mainmenu:textures/bg_4.png","mainmenu:textures/bg_5.png","mainmenu:textures/bg_6.png"],
+              "displayDuration" : 100,
+              "fadeDuration" : 40
+          }
+      }
+}
+}
