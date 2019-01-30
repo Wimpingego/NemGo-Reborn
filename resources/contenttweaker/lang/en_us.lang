@@ -1,0 +1,52 @@
+
+item.contenttweaker.Nemgo.name=Nemgo
+item.contenttweaker.WimpingEgo.name=WimpingEgo
+item.contenttweaker.Nemsun.name=Nemsun
+item.contenttweaker.slimesoup.name=Slime Soup
+item.contenttweaker.egoenergy.name=Ego Energy
+item.contenttweaker.nemcake.name=Nem's Cake
+item.contenttweaker.slime_heart.name=Slime Heart
+item.contenttweaker.nem_heart.name=Nem's Heart
+item.contenttweaker.death_potato.name=Death Potato
+item.contenttweaker.lastrod.name=The Last Rod
+item.contenttweaker.lastpick.name=The Last Pickaxe Ever
+item.contenttweaker.underdonecake.name=Under Done Cake
+item.contenttweaker.ebrain.name=One Slimy Brain
+item.contenttweaker.nbrain.name=One Purple Brain
+item.contenttweaker.nwand.name=Purple Magic Stick
+item.contenttweaker.what.name=Purple Head Warmer 
+item.contenttweaker.wandrod.name=Wand Rod
+item.contenttweaker.bucketbros.name=Bucket Bothers
+item.contenttweaker.starofnemgo.name=Star Of NemGo
+
+fluid.slimeiron=Molten Slime Iron
+fluid.purplehaze=Molten Purple Haze
+fluid.bucketbros=Molten Bothers
+
+tile.contenttweaker.NB1.name=NemGo Nether Portal
+tile.contenttweaker.NB2.name=NemGo Farmhouse
+tile.contenttweaker.NB3.name=NemGo Home Sweet Home
+tile.contenttweaker.NB4.name=NemGo Library
+tile.contenttweaker.NB5.name=NemGo Warehouse
+tile.contenttweaker.NB6.name=NemGo Windmill
+tile.contenttweaker.NB7.name=NemGo Desert Traders
+tile.contenttweaker.NB8.name=NemGo Desert House
+
+#Extra Renamed Crap
+
+item.wood_knife.name=Wooden Knife
+item.stone_knife.name=Stone Knife
+item.iron_knife.name=Iron Knife
+item.diamond_knife.name=Diamond Knife
+item.gold_knife.name=Gold Knife
+
+item.bark_oak.name=Oak Bark
+item.bark_spruce.name=Spruce Bark
+item.bark_birch.name=Birch Bark
+item.bark_jungle.name=Jungle Bark
+item.bark_dark_oak.name=Dark Oak Bark
+item.bark_acacia.name=Acacia Bark
+item.fungus_cap.name=Fungus Cap
+
+entity.pirate.name=Pirate
+item.pirates.flintlock.name=Fintlock Pistol
